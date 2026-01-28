@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .blur-placeholder {
+    filter: blur(20px);
+    transform: scale(1.1);
+  }
+}
